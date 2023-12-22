@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.paint.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: rgb(173,216,230);" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.demo2.PageOne">
+    <Label fx:id="usernameText" layoutX="29.0" layoutY="22.0" prefHeight="53.0" prefWidth="534.0" textAlignment="CENTER">
+      <textFill>
+         <RadialGradient centerX="0.5" centerY="0.5" radius="0.5">
+            <stops>
+               <Stop>
+                  <color>
+                     <Color />
+                  </color>
+               </Stop>
+               <Stop offset="1.0">
+                  <color>
+                     <Color />
+                  </color>
+               </Stop>
+            </stops>
+         </RadialGradient>
+      </textFill>
+      <font>
+         <Font size="21.0" />
+      </font></Label>
+   <Button layoutX="47.0" layoutY="163.0" mnemonicParsing="false" onAction="#clickButtonNewChet" prefHeight="38.0" prefWidth="193.0" text="Создать счет" />
+   <Button layoutX="47.0" layoutY="220.0" mnemonicParsing="false" onAction="#clikButtonNewDoxod" prefHeight="38.0" prefWidth="193.0" text="Добавить расходы и доходы" />
+   <Button layoutX="47.0" layoutY="278.0" mnemonicParsing="false" onAction="#clikButtonNewStatistic" prefHeight="38.0" prefWidth="193.0" text="Посмотреть статистику" />
+   <Button layoutX="47.0" layoutY="328.0" mnemonicParsing="false" prefHeight="38.0" prefWidth="193.0" text="Сделать напоминание" />
+   <Button layoutX="296.0" layoutY="165.0" mnemonicParsing="false" prefHeight="38.0" prefWidth="209.0" text="Подсчет на 3 месяца" />
+   <Button layoutX="296.0" layoutY="220.0" mnemonicParsing="false" prefHeight="38.0" prefWidth="209.0" text="Подсчет на год" />
+   <Button layoutX="296.0" layoutY="278.0" mnemonicParsing="false" prefHeight="38.0" prefWidth="209.0" text="Настройки категорий" />
+   <Button layoutX="296.0" layoutY="328.0" mnemonicParsing="false" prefHeight="38.0" prefWidth="209.0" text="Настройки" />
+
+</AnchorPane>
